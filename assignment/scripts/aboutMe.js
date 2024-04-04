@@ -86,11 +86,11 @@ console.log(petStatus);
 //      console.log `mostPets` after the conditional has run.
 let mostPets;
 if (pets < friendsPets) {
-  mostPets = `Friend has the most pets, with a total of ${friendsPets}`;
+  mostPets = friendsPets;
 } else if (pets > friendsPets) {
-  mostPets = `I have the most pets, with a total of ${pets}`;
+  mostPets = pets;
 }
-console.log(mostPets);
+console.log(mostPets)
 // 16 - Make a variable called `luckyResult`
 //      Write a *switch* statement that sets `luckyResult` to:
 //      "First is the worst" if your lucky number is 1

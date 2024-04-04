@@ -115,7 +115,7 @@ switch (luckyNumber) {
 }
 console.log(luckyResult);
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
-result = (adventurous == true) ? `Adventures are great!` : `How about we stay home`;
+result = (adventurous == true) ? `Adventures are great!` : `How about we stay home?`;
 console.log(result);
 
 

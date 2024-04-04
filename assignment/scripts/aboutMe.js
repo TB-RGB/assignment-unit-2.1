@@ -37,16 +37,16 @@ let friendsPets = 2;
 pets += 2;
 // console.log(pets);
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
-let allowedPets = 5;
+let allowedPets = 4;
 // 12 - Create a variable called `result`. Create a conditional:
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
 let result;
 if (adventurous == true) {
-  result = `Adventures are great!`
+  result = `Adventures are great!`;
 } else {
-  result = `How about we stay home?`
+  result = `How about we stay home?`;
 }
 console.log(result);
 // 13 - Create a variable called `diceRoll` and set it to the value of "Try again later.".
@@ -56,7 +56,7 @@ console.log(result);
 //      Console log the value of `diceRoll`
 let diceRoll = `Try again later.`;
 if (luckyNumber == 2 && adventurous == true) {
-  diceRoll = `Roll the dice!`
+  diceRoll = `Roll the dice!`;
 }
 console.log(diceRoll);
 
@@ -68,8 +68,15 @@ console.log(diceRoll);
 //      set `petStatus` to the value of "I have enough pets" 
 //      if the value of `pets` is greater than the value of `allowedPets`.
 //      set `petStatus` to the value of "Oh no, I have too many pets!"
-
-
+let petStatus;
+if (pets < allowedPets) {
+  petStatus = `I can have more pets.`;
+} else if (pets == allowedPets) {
+  petStatus = `I have enough pets`;
+} else if (pets > allowedPets) {
+  petStatus = `Oh no, I have too many pets`;
+}
+console.log(petStatus);
 // STRETCH GOALS:
 
 // 15 - Make a variable called `mostPets` and a conditional that

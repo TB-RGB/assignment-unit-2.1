@@ -7,11 +7,11 @@ let lastName = 'Bridges';
 //     (remember, you already have variables for this, can you use those?)
 //     Console log the value of `fullName`
 let fullName = `${firstName} ${lastName}`;
-console.log(fullName);
+console.log('Full Name:',fullName);
 // 4 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 //     Console log the value of `luckyNumber`
 let luckyNumber = 24;
-console.log(luckyNumber);
+console.log('Lucky Number:',luckyNumber);
 // 5 - Create a variable `introduction` and using the variables from above,
 //     give it the value of:
 //     'My name is (full name), and I think (lucky number) is a winner!'.
@@ -22,15 +22,15 @@ console.log(introduction);
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 //     Console log the value of `adventurous`
 let adventurous = true;
-console.log(adventurous);
+console.log('Is adventurous:',adventurous);
 // 7 - Create a variable named `food`, and set its value to a string of your favorite food
 //     Console log the value of `food`
 let food = `Pizza`;
-console.log(food);
+console.log('Favorite Food:',food);
 // 8 - Create a variable called `pets` and set it to the value of the number of pets you have
 //     Console log the value of `pets`
 let pets = 2;
-console.log(pets);
+console.log('Number of pets I have:',pets);
 // 9 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 let friendsPets = 2;
 // 10 - Add two pets to your `pets` variable
@@ -48,7 +48,7 @@ if (adventurous == true) {
 } else {
   result = `How about we stay home?`;
 }
-console.log(result);
+console.log('Should we adventure?',result);
 // 13 - Create a variable called `diceRoll` and set it to the value of "Try again later.".
 //      Create a compound conditional: 
 //      if luckyNumber is 2 and adventurous is true,
@@ -58,7 +58,7 @@ let diceRoll = `Try again later.`;
 if (luckyNumber == 2 && adventurous == true) {
   diceRoll = `Roll the dice!`;
 }
-console.log(diceRoll);
+console.log('Should I roll the dice?',diceRoll);
 
 // 14 - Create a variable called `petStatus`. 
 //      Write a conditional that covers the following:
@@ -76,7 +76,7 @@ if (pets < allowedPets) {
 } else if (pets > allowedPets) {
   petStatus = `Oh no, I have too many pets`;
 }
-console.log(petStatus);
+console.log('Pet Status:',petStatus);
 // STRETCH GOALS:
 
 // 15 - Make a variable called `mostPets` and a conditional that
@@ -90,7 +90,7 @@ if (pets < friendsPets) {
 } else if (pets > friendsPets) {
   mostPets = pets;
 }
-console.log(mostPets)
+console.log('How many pets are the most pets?',mostPets)
 // 16 - Make a variable called `luckyResult`
 //      Write a *switch* statement that sets `luckyResult` to:
 //      "First is the worst" if your lucky number is 1
@@ -113,10 +113,10 @@ switch (luckyNumber) {
   default:
     luckyResult = `Luck is what happens when preparation meets opportunity`;
 }
-console.log(luckyResult);
+console.log('Lucky Result:',luckyResult);
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
 result = (adventurous == true) ? `Adventures are great!` : `How about we stay home?`;
-console.log(result);
+console.log('Should we adventure?',result);
 
 
 
